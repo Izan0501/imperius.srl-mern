@@ -5,6 +5,7 @@ import { BsSearch } from 'react-icons/bs'
 const Header = () => {
   return (
     <>
+      {/* Top Header */}
       <header className="header-top-strip py-3">
         <div className="container-xxl">
           <div className="row">
@@ -19,6 +20,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+      {/* Middle Header */}
       <header className="header-upper py-3">
         <div className="container-xxl">
           <div className="row align-items-center">
@@ -60,7 +62,7 @@ const Header = () => {
                   <Link className='d-flex align-items-center gap-10 text-white'>
                     <img src="images/user.svg" alt="cart" />
                     <p className='mb-0'>
-                    Log in <br/> My account
+                      Log in <br /> My account
                     </p>
                   </Link>
                 </div>
@@ -72,6 +74,52 @@ const Header = () => {
                       <p className='mb-0'>$0.00</p>
                     </div>
                   </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      {/* End Header */}
+      <header className="header-bottom py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="menu-bottom d-flex align-items-center gap-30">
+                <div>
+                  <div className="dropdown">
+                    <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 d-flex gap-15 align-items-center justify-content-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="/images/menu.svg" alt="" /><span className='me-5 d-inline-block'>Shop Categories</span>
+                    </button>
+                    <ul className="dropdown-menu">
+                      <li><Link className="dropdown-item text-white" to=""
+                      >Action</Link></li>
+                      <li><Link className="dropdown-item text-white" to=""
+                      >Another action</Link></li>
+                      <li><Link className="dropdown-item text-white" to=""
+                      >Something else here</Link></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="menu-links ">
+                  <div className="d-flex align-items-center gap-15">
+                    <NavLink
+                      to='/'>
+                      Home
+                    </NavLink>
+                    <NavLink
+                      to='/'>
+                      Our Store
+                    </NavLink>
+                    <NavLink
+                      to='/'>
+                      Blogs
+                    </NavLink>
+                    <NavLink
+                      to='/contact'>
+                      Contact
+                    </NavLink>
+                  </div>
                 </div>
               </div>
             </div>
