@@ -5,7 +5,7 @@ import {BsLinkedin,BsGithub,BsYoutube,BsInstagram } from 'react-icons/bs'
 const Footer = () => {
   return (
     <>
-      <footer className='py-4'>
+      <footer className='py-3'>
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-5">
