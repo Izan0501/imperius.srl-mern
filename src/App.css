@@ -24,6 +24,10 @@ a {
   box-shadow: none;
 }
 
+.gap-5{
+  gap: 5px;
+}
+
 .gap-10{
   gap: 10px;
 }
@@ -35,7 +39,9 @@ a {
 .gap-30{
   gap: 30px
 }
+
 /*Header Section*/
+
 .header-top-strip {
   border-bottom: 1px solid var(--color-3b4149);
   background-color: var(--color-131921);
@@ -95,5 +101,34 @@ a {
   border-bottom: 1px solid var(--color-3b4149);
 }
 
+/*Header Section Ends Here*/
 
-/*Header Section End*/
+/* Footer Section */
+
+footer{
+  background-color: var(--color-232f3e);
+}
+
+footer:nth-child(3) {
+  border-top: 1px solid 1px rgba(255, 255, 255, 0.1);
+}
+
+footer:not(:first-child){
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .input-group-text{
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
+  border-radius: 25px;
+}
+
+footer .social-icons .text-white {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 13px 13px
+
+}
+/* Footer Section Ends Here */
+
