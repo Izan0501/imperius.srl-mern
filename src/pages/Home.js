@@ -1,9 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Marquee from 'react-fast-marquee';
 
 const Home = () => {
     return (
         <>
+            {/* home wrapper 1 */}
             <section className="home-wrapper-1 py-5">
                 <div className="container-xxl">
                     <div className="row">
@@ -52,6 +54,147 @@ const Home = () => {
                                         <p>From $499 <br /> or $34.62/mo</p>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* home wrapper 2 */}
+            <section className="home-wrapper-2 py-5">
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="services d-flex align-items-center justify-content-between">
+                                <div className='d-flex align-items-center gap-10 flex-column'>
+                                    <img src="images/service.png" alt="services" />
+                                    <h6>Free Order</h6>
+                                    <p className='mb-0 '>Without web taxes</p>
+                                </div>
+                                <div className='d-flex align-items-center gap-10 flex-column'>
+                                    <img src="images/service-02.png" alt="services" />
+                                    <h6>Daily Surprise Offers</h6>
+                                    <p className='mb-0 '>Save upto 25% off</p>
+                                </div>
+                                <div className='d-flex align-items-center gap-10 flex-column'>
+                                    <img src="images/service-03.png" alt="services" />
+                                    <h6>Support 24/7</h6>
+                                    <p className='mb-0 '>Shop with an expert</p>
+                                </div>
+                                <div className='d-flex align-items-center gap-10 flex-column'>
+                                    <img src="images/service-04.png" alt="services" />
+                                    <h6>Affordable Prices</h6>
+                                    <p className='mb-0 '>Get Factory Default Price </p>
+                                </div>
+                                <div className='d-flex align-items-center gap-10 flex-column'>
+                                    <img src="images/service-05.png" alt="services" />
+                                    <h6>
+                                        Secure Payment
+                                    </h6>
+                                    <p className='mb-0 '>100% Protected Payment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='home-wrapper-2 py-5'>
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="categories d-flex justify-content-between align-items-center flex-wrap">
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Music & Gaming</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/camera.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Camera</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/camera.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Smart Tv</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/tv.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Smart Watches</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/headphone.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Music & Gaming</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/camera.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Camera</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/camera.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Smart Tv</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/tv.jpg" alt="" />
+                                </div>
+                                <div className="d-flex gap align-items-center">
+                                    <div className="">
+                                        <h6>Smart Watches</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src="/images/headphone.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* marquee-wrapper */}
+            <section className="marquee-wrapper py-5">
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="marquee-inner-wrapper card-wrapper">
+                                <Marquee className='d-flex '>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-01.png" alt="sponsors" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-02.png" alt="sponsors" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-03.png" alt="sponsors" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-04.png" alt="sponsors" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-05.png" alt="sponsors" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-06.png" alt="sponsors" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-07.png" alt="" />
+                                    </div>
+                                    <div className="mx-4 w-25">
+                                        <img src="images/brand-08.png" alt="" />
+                                    </div>
+                                </Marquee>
                             </div>
                         </div>
                     </div>
